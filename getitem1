@@ -37,7 +37,7 @@
 
     function getAllListItem() {
         // 返回页面中所有li标签
-        document.querySelector("li");
+        document.querySelectorAll("li");
     }
 
     function findAllHtmlSpanInOneSection(sectionId) {
